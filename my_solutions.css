@@ -118,3 +118,40 @@
         transform: rotate(0deg);
     }
 }
+
+/*Esercizio 12*/
+.ex-12-button:hover .ex-12-top-white{
+    animation: to-right 2s;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: to-left 2s;
+}
+
+@keyframes to-right {
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 65%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+@keyframes to-left {
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 65%;
+    }
+
+    100%{
+        right: 20%;
+    }
+}

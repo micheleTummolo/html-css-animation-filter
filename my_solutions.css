@@ -7,10 +7,21 @@
     background-color: red;
 }
 
+/*Secondo esercizio*/
 .ex-2-square{
     transition: width 2s;
 }
 
 .ex-2-square:active{
     width: 100%;
+}
+
+
+/*Terzo esercizio*/
+.ex-3-square{
+    transition: 0.5s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
 }
